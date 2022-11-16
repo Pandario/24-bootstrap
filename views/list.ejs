@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <title>Join Empire!</title>
+    
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+        
+    
+        
+    
+        
+    
+    <link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+        <!-- Favicons -->
+    <link href="/img/Death favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/assets/carousel.css" rel="stylesheet">
+    <link href="/assets/index2.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/assets/index2.css"> -->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://starwars.fandom.com/wiki/Naboo" target="_blank">Naboo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://starwars.fandom.com/wiki/Tatooine" target="_blank">Tatooine</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://en.wikipedia.org/wiki/Death_Star" target="_blank">Death Star</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+      
+    <main>
+        <div class="greetings">
+            <h1>You subscribed successfully! Welcome a board!</h1>
+            <img src="/img/subscribed.jpg" alt="" width="100%" height="100%" class="imgsub">
+            <h4>We recieved next information:</h4>
+            
+            <p class="recievedinfo">Your name: <%= formName %> </p>
+            <p class="recievedinfo">Your email: <%= formEmail %> </p>
+            <p class="recievedinfo">Your entered text: <%= formText %> </p>
+        </div>
+        <!-- FOOTER -->
+        <footer class="container">
+          <p class="float-end"><a href="#top">Back to top</a></p>
+          <p>&copy; 2022 Chernov Andrew &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </main>
+    <script src="/js/popup.js"></script>
+    <script src="/app.js"></script>
+    <script src="https://getbootstrap.com/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
