@@ -1,6 +1,5 @@
 # 24-bootstrap
 
-Now working on https://damp-beyond-49510.herokuapp.com/
 
 Have done: 
 Email form working with MailChimp api.
